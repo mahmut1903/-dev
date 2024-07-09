@@ -1,0 +1,23 @@
+matematik ithalatı
+
+# Noktaların listesi
+puanlar = [(1, 2), (3, 5), (6, 1), (7, 8), (9, 4)]
+
+#Mesafe fonsiyonunun tanımı
+def euclideanDistance(nokta1, nokta2):
+    ((point1[0] - point2[0]) ** 2 + (point1[1] - point2[1]) ** 2)**(1/2) döndür
+
+#Adaletleri saklayacak liste
+mesafeler = []
+
+# Her nokta çifti arasındaki mesafeleri hesaplayıp mesafeleri listede ekleyelim
+i aralığında(len(noktalar)) için:
+    j aralığında (i + 1, len(noktalar)) için:
+        mesafe = öklidMesafesi(noktalar[i], noktalar[j])
+        mesafeler.append(mesafe)
+
+# En küçük Mesafeyi bulalım
+min_mesafe = min(mesafeler)
+
+# Sonucu yazdıralım
+print(f"En küçük Mesafe: {min_distance}")
